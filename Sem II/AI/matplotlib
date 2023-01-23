@@ -1,0 +1,9 @@
+from matplotlib import pyplot as plt
+
+subjects = ["English", "Nepali", "Maths"]
+marks = [60, 70, 80]
+plt.bar(range(len(subjects)), marks)
+plt.title("Exam marks")
+plt.ylabel("Marks in subjects")
+plt.xticks(range(len(subjects)), subjects)
+plt.show()
